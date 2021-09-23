@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/dns.c
+stdint.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+dns.h
+/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/dns.h
+hashTable.h
+/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/hashTable.h
+
+/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/dns.h
+
+/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/hashTable.h
+dns.h
+/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/dns.h
+
