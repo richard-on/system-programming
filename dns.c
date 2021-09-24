@@ -24,9 +24,9 @@ DNSHandle InitDNS()
 void LoadHostsFile( DNSHandle hDNS, const char* hostsFilePath )
 {
     FILE* fp;
-    char * line = NULL;
+    char line[1000] = {0};
     size_t len = 0;
-    ssize_t read;
+    //ssize_t read;
     unsigned int ip1 = 0, ip2 = 0, ip3 = 0, ip4 = 0;
     char hostName[201] = {0};
     IPADDRESS ip = ( ip1 & 0xFF ) << 24 |
@@ -38,8 +38,7 @@ void LoadHostsFile( DNSHandle hDNS, const char* hostsFilePath )
     if (fp == NULL)
         exit(EXIT_FAILURE);
 
-    while ((read = getline(&line, &len, fp)) != -1) {
-        sscanf(line, "%d.%d.%d.%d %s", &ip1, &ip2, &ip3, &ip4, hostName);
+    while (fscanf(fp, "%d.%d.%d.%d %s", &ip1, &ip2, &ip3, &ip4, hostName) != EOF) {
         ip = ( ip1 & 0xFF ) << 24 |
              ( ip2 & 0xFF ) << 16 |
              ( ip3 & 0xFF ) << 8  |
@@ -48,9 +47,6 @@ void LoadHostsFile( DNSHandle hDNS, const char* hostsFilePath )
     }
 
     fclose(fp);
-    if (line)
-        free(line);
-
 }
 
 IPADDRESS DnsLookUp( DNSHandle hDNS, const char* hostName )

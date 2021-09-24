@@ -1,6 +1,7 @@
 #ifndef LAB1_DNS_HASHTABLE_H
 #define LAB1_DNS_HASHTABLE_H
 
+#include <stdint.h>
 #include "dns.h"
 
 typedef struct HostNameIp HostNameIp;

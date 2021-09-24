@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/dns.c
+C:/Users/Richard/CLionProjects/system-programming/system-programming/dns.h
+
+C:/Users/Richard/CLionProjects/system-programming/system-programming/hashTable.c
 stdint.h
 -
 stdlib.h
@@ -15,14 +17,12 @@ stdio.h
 -
 string.h
 -
-dns.h
-/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/dns.h
 hashTable.h
-/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/hashTable.h
+C:/Users/Richard/CLionProjects/system-programming/system-programming/hashTable.h
 
-/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/dns.h
-
-/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/hashTable.h
+C:/Users/Richard/CLionProjects/system-programming/system-programming/hashTable.h
+stdint.h
+-
 dns.h
-/cygdrive/c/Users/Richard/CLionProjects/system-programming/lab1_DNS/dns.h
+C:/Users/Richard/CLionProjects/system-programming/system-programming/dns.h
 

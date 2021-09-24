@@ -51,7 +51,6 @@ HostNameIp* createItem(char* hostName, IPADDRESS ip){
 
 void freeItem(HostNameIp* item){
     free(item->hostName);
-    free(item->ip);
     free(item);
 }
 

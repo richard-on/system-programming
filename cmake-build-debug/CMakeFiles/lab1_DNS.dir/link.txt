@@ -1,1 +1,0 @@
-/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/lab1_DNS.dir/main.c.o CMakeFiles/lab1_DNS.dir/dns.c.o CMakeFiles/lab1_DNS.dir/hashTable.c.o -o lab1_DNS.exe -Wl,--out-implib,liblab1_DNS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
