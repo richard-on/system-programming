@@ -1,10 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include "hashTable.h"
 
-#define SIZE 100000
+#define SIZE 50000
 
 typedef struct HostNameIp{
     char* hostName;
@@ -17,6 +19,7 @@ typedef struct HashTable{
     int count;
 } HashTable;
 
+/**Hash function**/
 #define FNV_OFFSET 14695981039346656037UL
 #define FNV_PRIME 1099511628211UL
 static uint64_t hash_key(const char* key) {
@@ -72,6 +75,7 @@ void insert(HashTable* table, char* hostName, IPADDRESS ip){
     hashIndex %= table->size;
 
     HostNameIp* currentItem = table->items[hashIndex];
+    /*If collision encountered, increase hashIndex until free spot is found.*/
     while (currentItem != NULL) {
         hashIndex++;
         hashIndex %= SIZE;
@@ -79,7 +83,7 @@ void insert(HashTable* table, char* hostName, IPADDRESS ip){
     }
     if (table->count == table->size) {
 
-        printf("Insert Error: Hash Table is full\n");
+        printf("Hash Table is full\n");
         freeItem(currentItem);
         return;
     }
@@ -92,7 +96,7 @@ IPADDRESS search(HashTable* table, const char* hostName){
     uint64_t hashIndex = hash_key(hostName);
     hashIndex %= table->size;
     HostNameIp* currentItem = table->items[hashIndex];
-
+    /*Same collision dealing mechanism as in insert()*/
     if (currentItem != NULL) {
         while(strcmp(currentItem->hostName, hostName) != 0){
             hashIndex++;
