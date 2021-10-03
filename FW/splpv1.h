@@ -5,7 +5,14 @@
  * declaration of handle_message() function
  */
 
+/*
+ *            forward = "GET_VER"|"GET_DATA"|"GET_FILE"|"GET_COMMAND"|"GET_B64"|"DISCONNECT";
 
+            forward { return 0;}
+            backward = "CONNECT_OK"|"VERSION" [1,9][0-9]*|(cmdB) " " [a-z0-9.]+ " " (cmdB)|"B64:" " " base64|"DISCONNECT_OK";
+
+            backward { return 0;}
+ */
 
 enum test_status
 {
