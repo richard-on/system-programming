@@ -23,15 +23,15 @@ enum test_status
 
 enum Direction
 {
-    A_TO_B,
-    B_TO_A
+    A_TO_B = 0,
+    B_TO_A = 1
 };
 
 
 struct Message /* message */
 {
     enum Direction	direction;
-    char			*text_message;
+    char	    *text_message;
 };
 
 

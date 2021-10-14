@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/Richard/CLionProjects/system-programming/FW/cmake-build-release_mingw_clang",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe   -fexperimental-new-pass-manager -DCMAKE_CXX_FLAGS=-fexperimental-new-pass-manager -O3 -DNDEBUG -std=gnu11 -o CMakeFiles\\lab1_1_FW.dir\\main.c.obj -c C:\\Users\\Richard\\CLionProjects\\system-programming\\FW\\main.c",
+  "file": "C:/Users/Richard/CLionProjects/system-programming/FW/main.c"
+},
+{
+  "directory": "C:/Users/Richard/CLionProjects/system-programming/FW/cmake-build-release_mingw_clang",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe   -fexperimental-new-pass-manager -DCMAKE_CXX_FLAGS=-fexperimental-new-pass-manager -O3 -DNDEBUG -std=gnu11 -o CMakeFiles\\lab1_1_FW.dir\\splpv1.c.obj -c C:\\Users\\Richard\\CLionProjects\\system-programming\\FW\\splpv1.c",
+  "file": "C:/Users/Richard/CLionProjects/system-programming/FW/splpv1.c"
+}
+]

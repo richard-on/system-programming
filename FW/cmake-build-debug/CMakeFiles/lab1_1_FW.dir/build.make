@@ -58,38 +58,38 @@ include CMakeFiles\lab1_1_FW.dir\flags.make
 CMakeFiles\lab1_1_FW.dir\main.c.obj: CMakeFiles\lab1_1_FW.dir\flags.make
 CMakeFiles\lab1_1_FW.dir\main.c.obj: ..\main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Richard\CLionProjects\system-programming\FW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab1_1_FW.dir/main.c.obj"
-	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\lab1_1_FW.dir\main.c.obj /FdCMakeFiles\lab1_1_FW.dir\ /FS -c C:\Users\Richard\CLionProjects\system-programming\FW\main.c
 <<
 
 CMakeFiles\lab1_1_FW.dir\main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_1_FW.dir/main.c.i"
-	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\lab1_1_FW.dir\main.c.i @<<
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\lab1_1_FW.dir\main.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Richard\CLionProjects\system-programming\FW\main.c
 <<
 
 CMakeFiles\lab1_1_FW.dir\main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_1_FW.dir/main.c.s"
-	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab1_1_FW.dir\main.c.s /c C:\Users\Richard\CLionProjects\system-programming\FW\main.c
 <<
 
 CMakeFiles\lab1_1_FW.dir\splpv1.c.obj: CMakeFiles\lab1_1_FW.dir\flags.make
 CMakeFiles\lab1_1_FW.dir\splpv1.c.obj: ..\splpv1.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Richard\CLionProjects\system-programming\FW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab1_1_FW.dir/splpv1.c.obj"
-	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\lab1_1_FW.dir\splpv1.c.obj /FdCMakeFiles\lab1_1_FW.dir\ /FS -c C:\Users\Richard\CLionProjects\system-programming\FW\splpv1.c
 <<
 
 CMakeFiles\lab1_1_FW.dir\splpv1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_1_FW.dir/splpv1.c.i"
-	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\lab1_1_FW.dir\splpv1.c.i @<<
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\lab1_1_FW.dir\splpv1.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Richard\CLionProjects\system-programming\FW\splpv1.c
 <<
 
 CMakeFiles\lab1_1_FW.dir\splpv1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_1_FW.dir/splpv1.c.s"
-	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+	C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab1_1_FW.dir\splpv1.c.s /c C:\Users\Richard\CLionProjects\system-programming\FW\splpv1.c
 <<
 
@@ -106,7 +106,7 @@ lab1_1_FW.exe: CMakeFiles\lab1_1_FW.dir\splpv1.c.obj
 lab1_1_FW.exe: CMakeFiles\lab1_1_FW.dir\build.make
 lab1_1_FW.exe: CMakeFiles\lab1_1_FW.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Richard\CLionProjects\system-programming\FW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable lab1_1_FW.exe"
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\lab1_1_FW.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\lab1_1_FW.dir\objects1.rsp @<<
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\lab1_1_FW.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\lab1_1_FW.dir\objects1.rsp @<<
  /out:lab1_1_FW.exe /implib:lab1_1_FW.lib /pdb:C:\Users\Richard\CLionProjects\system-programming\FW\cmake-build-debug\lab1_1_FW.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 

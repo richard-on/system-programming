@@ -17,7 +17,7 @@
 
 #define SPLP_INVALID_MSG_INDEX    0xffffffff
 #define DEFAULT_CYCLE_COUNT       100
-#define DEFAULT_TEST_FILENAME     "test.txt"
+#define DEFAULT_TEST_FILENAME     "C:\\Users\\Richard\\CLionProjects\\system-programming\\FW\\test.txt"
 
 
 

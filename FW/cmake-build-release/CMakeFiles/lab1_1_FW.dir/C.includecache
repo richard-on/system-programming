@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Richard/CLionProjects/system-programming/FW/main.c
+stdlib.h
+-
+stdio.h
+-
+time.h
+-
+string.h
+-
+splpv1.h
+C:/Users/Richard/CLionProjects/system-programming/FW/splpv1.h
+
+C:/Users/Richard/CLionProjects/system-programming/FW/splpv1.c
+splpv1.h
+C:/Users/Richard/CLionProjects/system-programming/FW/splpv1.h
+
+C:/Users/Richard/CLionProjects/system-programming/FW/splpv1.h
+
